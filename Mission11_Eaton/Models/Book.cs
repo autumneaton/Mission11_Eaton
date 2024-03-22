@@ -21,6 +21,6 @@ namespace Mission11_Eaton.Models
         [Required]
         public required int PageCount { get; set; }
         [Required]
-        public required double Price { get; set; }
+        public required decimal Price { get; set; }
     }
 }
